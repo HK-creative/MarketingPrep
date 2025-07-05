@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "task-master-mcp": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "C:\\Users\\999yu\\Desktop\\Marketing Prep"
+    }
+  }
+} 

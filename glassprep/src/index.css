@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .glass {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  }
+  
+  .glass-hover {
+    transition: all 0.3s;
+  }
+  
+  .glass-hover:hover {
+    background: rgba(255, 255, 255, 0.12);
+    transform: scale(1.03);
+    box-shadow: 0 25px 50px -12px rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .btn-primary {
+    background: #00BFA6;
+    color: white;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 16px;
+    transition: all 0.3s;
+    transform: scale(1);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary:hover {
+    background: rgba(0, 191, 166, 0.9);
+    transform: scale(1.05);
+    box-shadow: 0 20px 25px -5px rgba(0, 191, 166, 0.3);
+  }
+  
+  .btn-primary:active {
+    transform: scale(0.95);
+  }
+  
+  .btn-primary:focus {
+    outline: 2px solid #00BFA6;
+    outline-offset: 2px;
+  }
+  
+  .btn-secondary {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 12px 24px;
+    transition: all 0.3s;
+    transform: scale(1);
+  }
+  
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+  }
+  
+  .btn-secondary:active {
+    transform: scale(0.95);
+  }
+  
+  .btn-secondary:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.6);
+    outline-offset: 2px;
+  }
+  
+  .progress-ring {
+    @apply transition-all duration-1000;
+    transition-timing-function: ease-out;
+  }
+  
+  .card-enter {
+    @apply animate-slideInUp;
+  }
+  
+  .page-enter {
+    @apply animate-fadeInUp;
+  }
+  
+  .button-glow {
+    @apply animate-pulse-glow;
+  }
+  
+  .typing-effect {
+    @apply animate-typing overflow-hidden whitespace-nowrap border-r-2 border-accent;
+  }
+
+  /* Accessibility Utilities */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  .focus-within\:not-sr-only:focus-within {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: inherit;
+    margin: inherit;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+  
+  .focus-visible {
+    outline: 2px solid #00BFA6;
+    outline-offset: 2px;
+  }
+  
+  .focus-trap {
+    @apply focus-within:ring-2 focus-within:ring-accent focus-within:ring-offset-2 focus-within:ring-offset-gray-900;
+  }
+
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    .glass {
+      background: rgba(255, 255, 255, 0.15);
+      border: 2px solid rgba(255, 255, 255, 0.6);
+    }
+    
+    .btn-primary {
+      border: 2px solid #00BFA6;
+    }
+    
+    .btn-secondary {
+      border: 2px solid rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  /* Reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    .glass-hover:hover,
+    .btn-primary:hover,
+    .btn-secondary:hover,
+    .progress-ring,
+    .card-enter,
+    .page-enter,
+    .button-glow,
+    .typing-effect {
+      animation: none;
+      transform: none;
+      transition: none;
+    }
+    
+    .glass-hover:hover {
+      background: rgba(255, 255, 255, 0.12);
+      box-shadow: 0 25px 50px -12px rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  /* Focus indicators for keyboard navigation */
+  .keyboard-focusable {
+    @apply focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-gray-900;
+  }
+
+  /* Enhanced button states for accessibility */
+  .btn-primary:disabled,
+  .btn-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .btn-primary:disabled:hover,
+  .btn-secondary:disabled:hover {
+    transform: none;
+    background: inherit;
+  }
+}
+
+body {
+  @apply bg-gray-900 text-white;
+  background-image: 
+    linear-gradient(135deg, #1e3a8a 0%, #1e1b4b 25%, #0f172a 50%, #1e1b4b 75%, #1e3a8a 100%),
+    url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' seed='5' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.1'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900/50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-accent/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-accent/70;
+}
+
+/* Confetti styles */
+.confetti-container {
+  @apply fixed inset-0 pointer-events-none z-50;
+}
+
+.confetti {
+  @apply absolute w-2 h-3 bg-accent;
+}
+
+/* Timer ring animation */
+.timer-ring {
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+/* Input styles */
+.pin-input {
+  @apply glass w-16 h-16 text-2xl text-center font-bold focus:outline-none focus:border-accent keyboard-focusable;
+}
+
+/* Mobile responsive enhancements */
+@media (max-width: 768px) {
+  .pin-input {
+    @apply w-12 h-12 text-lg;
+  }
+  
+  .glass {
+    backdrop-filter: blur(10px);
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  .glass-hover:hover {
+    transform: none;
+  }
+  
+  .glass-hover:active {
+    transform: scale(0.98);
+    background: rgba(255, 255, 255, 0.15);
+  }
+  
+  .btn-primary:active,
+  .btn-secondary:active {
+    transform: scale(0.95);
+  }
+}
+
+/* 3D Card styles */
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* Improved focus indicators for links and interactive elements */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #00BFA6;
+  outline-offset: 2px;
+}
+
+/* Ensure sufficient color contrast */
+.text-gray-400 {
+  color: #9CA3AF; /* Ensuring WCAG AA compliance */
+}
+
+.text-gray-300 {
+  color: #D1D5DB; /* Better contrast for readability */
+}
+
+/* Skip link styles */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: #00BFA6;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+  border-radius: 4px;
+}
+
+.skip-link:focus {
+  top: 6px;
+}

@@ -1,0 +1,1407 @@
+{
+  "quizzes": [
+    {
+      "id": "q_000",
+      "prompt": "What KPI best measures the efficiency of ad spend in e‑commerce campaigns? ",
+      "options": [
+        "ROAS",
+        "CTR",
+        "CPM",
+        "Bounce Rate"
+      ],
+      "answerIndex": 0,
+      "explanation": "ROAS (Return on Ad Spend) directly ties revenue to cost."
+    },
+    {
+      "id": "q_001",
+      "prompt": "In Meta Ads, which audience type will update automatically as new website visitors arrive?",
+      "options": [
+        "Custom Audience based on pixel traffic",
+        "Saved Audience by interest",
+        "Lookalike Audience 1% based on customers",
+        "Engagement Audience from Instagram"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pixel‑based Custom Audiences refresh continuously."
+    },
+    {
+      "id": "q_002",
+      "prompt": "Which Google Analytics 4 report shows the path users took before converting?",
+      "options": [
+        "Path Exploration",
+        "Acquisition Overview",
+        "Realtime",
+        "Cohort Analysis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Path Exploration visualises user journeys."
+    },
+    {
+      "id": "q_003",
+      "prompt": "What does a high Frequency in a Meta campaign usually indicate?",
+      "options": [
+        "Ad fatigue risk",
+        "High relevance",
+        "Low budget",
+        "New audience growth"
+      ],
+      "answerIndex": 0,
+      "explanation": "Seeing the same ad many times can cause fatigue."
+    },
+    {
+      "id": "q_004",
+      "prompt": "Which HTML element is MOST important for on‑page SEO keyword placement?",
+      "options": [
+        "<title>",
+        "<h3>",
+        "<div>",
+        "<img>"
+      ],
+      "answerIndex": 0,
+      "explanation": "The <title> tag has the highest weight."
+    },
+    {
+      "id": "q_005",
+      "prompt": "When scaling a campaign, what is a safest daily budget increase?",
+      "options": [
+        "15‑30%",
+        "50‑60%",
+        "100%",
+        "5%"
+      ],
+      "answerIndex": 0,
+      "explanation": "Small controlled increments (15‑30%) avoid algorithm shock."
+    },
+    {
+      "id": "q_006",
+      "prompt": "Which Shopify metric directly affects checkout conversion but NOT add‑to‑cart?",
+      "options": [
+        "Payment gateway availability",
+        "Product page load speed",
+        "Inventory count",
+        "Variant images"
+      ],
+      "answerIndex": 0,
+      "explanation": "Payment errors hurt checkout conversion."
+    },
+    {
+      "id": "q_007",
+      "prompt": "What tool can you use to test structured data for rich snippets?",
+      "options": [
+        "Google Rich Results Test",
+        "Lighthouse",
+        "Tag Assistant",
+        "PageSpeed Insights"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rich Results Test validates schema markup."
+    },
+    {
+      "id": "q_008",
+      "prompt": "What is the default attribution setting in Google Ads (as of 2025)?",
+      "options": [
+        "Data‑driven",
+        "Last click",
+        "First click",
+        "Linear"
+      ],
+      "answerIndex": 0,
+      "explanation": "Google shifted to data‑driven as default."
+    },
+    {
+      "id": "q_009",
+      "prompt": "Which Meta objective would you choose for driving sales on Shopify with pixel events?",
+      "options": [
+        "Conversions",
+        "Reach",
+        "Engagement",
+        "Traffic"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Conversions objective optimises for purchase events."
+    },
+    {
+      "id": "q_010",
+      "prompt": "Which metric equals clicks divided by impressions?",
+      "options": [
+        "CTR",
+        "CPC",
+        "CPM",
+        "CVR"
+      ],
+      "answerIndex": 0,
+      "explanation": "CTR = Click‑Through Rate."
+    },
+    {
+      "id": "q_011",
+      "prompt": "In SEO, what file instructs bots which pages NOT to crawl?",
+      "options": [
+        "robots.txt",
+        "sitemap.xml",
+        ".htaccess",
+        "manifest.json"
+      ],
+      "answerIndex": 0,
+      "explanation": "robots.txt sets crawl rules."
+    },
+    {
+      "id": "q_012",
+      "prompt": "Which email metric shows ratio of purchases to emails delivered?",
+      "options": [
+        "Conversion Rate",
+        "Open Rate",
+        "CTR",
+        "Bounce Rate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conversion Rate = purchases/emails delivered."
+    },
+    {
+      "id": "q_013",
+      "prompt": "Google Ads Quality Score does NOT include:",
+      "options": [
+        "Ad placement",
+        "Expected CTR",
+        "Ad relevance",
+        "Landing page experience"
+      ],
+      "answerIndex": 0,
+      "explanation": "Placement isn't part of Quality Score."
+    },
+    {
+      "id": "q_014",
+      "prompt": "Lookalike 1% audience in Israel approximates what % of population?",
+      "options": [
+        "1%",
+        "2%",
+        "5%",
+        "10%"
+      ],
+      "answerIndex": 0,
+      "explanation": "1% of Israeli FB users."
+    },
+    {
+      "id": "q_015",
+      "prompt": "A landing page with PageSpeed score < 50 is likely to have:",
+      "options": [
+        "Higher bounce rate",
+        "Faster loading",
+        "Better SEO",
+        "Lower CPC"
+      ],
+      "answerIndex": 0,
+      "explanation": "Slow pages raise bounce and CPC."
+    },
+    {
+      "id": "q_016",
+      "prompt": "Which metric tells you cost per visitor who added item to cart?",
+      "options": [
+        "CPA‑ATC",
+        "CPM",
+        "ROAS",
+        "CPL"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cost per Add‑to‑Cart."
+    },
+    {
+      "id": "q_017",
+      "prompt": "What tag triggers enhanced ecommerce purchase event in GA4?",
+      "options": [
+        "purchase",
+        "transaction",
+        "order",
+        "conversion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Event name 'purchase'."
+    },
+    {
+      "id": "q_018",
+      "prompt": "An H1 tag should appear:",
+      "options": [
+        "Once per page",
+        "Multiple times per page",
+        "Not recommended",
+        "Only in footer"
+      ],
+      "answerIndex": 0,
+      "explanation": "One primary H1 helps hierarchy."
+    },
+    {
+      "id": "q_019",
+      "prompt": "UTM parameter 'utm_medium' commonly identifies:",
+      "options": [
+        "Channel type",
+        "Campaign name",
+        "Keyword",
+        "Ad creative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medium = type e.g., cpc, email."
+    },
+    {
+      "id": "q_020",
+      "prompt": "Which metric tells you cost per visitor who added item to cart?",
+      "options": [
+        "CPA‑ATC",
+        "CPM",
+        "ROAS",
+        "CPL"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cost per Add‑to‑Cart."
+    },
+    {
+      "id": "q_021",
+      "prompt": "Which email metric shows ratio of purchases to emails delivered?",
+      "options": [
+        "Conversion Rate",
+        "Open Rate",
+        "CTR",
+        "Bounce Rate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conversion Rate = purchases/emails delivered."
+    },
+    {
+      "id": "q_022",
+      "prompt": "UTM parameter 'utm_medium' commonly identifies:",
+      "options": [
+        "Channel type",
+        "Campaign name",
+        "Keyword",
+        "Ad creative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medium = type e.g., cpc, email."
+    },
+    {
+      "id": "q_023",
+      "prompt": "A landing page with PageSpeed score < 50 is likely to have:",
+      "options": [
+        "Higher bounce rate",
+        "Faster loading",
+        "Better SEO",
+        "Lower CPC"
+      ],
+      "answerIndex": 0,
+      "explanation": "Slow pages raise bounce and CPC."
+    },
+    {
+      "id": "q_024",
+      "prompt": "In SEO, what file instructs bots which pages NOT to crawl?",
+      "options": [
+        "robots.txt",
+        "sitemap.xml",
+        ".htaccess",
+        "manifest.json"
+      ],
+      "answerIndex": 0,
+      "explanation": "robots.txt sets crawl rules."
+    },
+    {
+      "id": "q_025",
+      "prompt": "In SEO, what file instructs bots which pages NOT to crawl?",
+      "options": [
+        "robots.txt",
+        "sitemap.xml",
+        ".htaccess",
+        "manifest.json"
+      ],
+      "answerIndex": 0,
+      "explanation": "robots.txt sets crawl rules."
+    },
+    {
+      "id": "q_026",
+      "prompt": "Lookalike 1% audience in Israel approximates what % of population?",
+      "options": [
+        "1%",
+        "2%",
+        "5%",
+        "10%"
+      ],
+      "answerIndex": 0,
+      "explanation": "1% of Israeli FB users."
+    },
+    {
+      "id": "q_027",
+      "prompt": "What tag triggers enhanced ecommerce purchase event in GA4?",
+      "options": [
+        "purchase",
+        "transaction",
+        "order",
+        "conversion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Event name 'purchase'."
+    },
+    {
+      "id": "q_028",
+      "prompt": "In SEO, what file instructs bots which pages NOT to crawl?",
+      "options": [
+        "robots.txt",
+        "sitemap.xml",
+        ".htaccess",
+        "manifest.json"
+      ],
+      "answerIndex": 0,
+      "explanation": "robots.txt sets crawl rules."
+    },
+    {
+      "id": "q_029",
+      "prompt": "Lookalike 1% audience in Israel approximates what % of population?",
+      "options": [
+        "1%",
+        "2%",
+        "5%",
+        "10%"
+      ],
+      "answerIndex": 0,
+      "explanation": "1% of Israeli FB users."
+    },
+    {
+      "id": "q_030",
+      "prompt": "Which metric equals clicks divided by impressions?",
+      "options": [
+        "CTR",
+        "CPC",
+        "CPM",
+        "CVR"
+      ],
+      "answerIndex": 0,
+      "explanation": "CTR = Click‑Through Rate."
+    },
+    {
+      "id": "q_031",
+      "prompt": "UTM parameter 'utm_medium' commonly identifies:",
+      "options": [
+        "Channel type",
+        "Campaign name",
+        "Keyword",
+        "Ad creative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medium = type e.g., cpc, email."
+    },
+    {
+      "id": "q_032",
+      "prompt": "An H1 tag should appear:",
+      "options": [
+        "Once per page",
+        "Multiple times per page",
+        "Not recommended",
+        "Only in footer"
+      ],
+      "answerIndex": 0,
+      "explanation": "One primary H1 helps hierarchy."
+    },
+    {
+      "id": "q_033",
+      "prompt": "Which email metric shows ratio of purchases to emails delivered?",
+      "options": [
+        "Conversion Rate",
+        "Open Rate",
+        "CTR",
+        "Bounce Rate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conversion Rate = purchases/emails delivered."
+    },
+    {
+      "id": "q_034",
+      "prompt": "An H1 tag should appear:",
+      "options": [
+        "Once per page",
+        "Multiple times per page",
+        "Not recommended",
+        "Only in footer"
+      ],
+      "answerIndex": 0,
+      "explanation": "One primary H1 helps hierarchy."
+    },
+    {
+      "id": "q_035",
+      "prompt": "Which metric tells you cost per visitor who added item to cart?",
+      "options": [
+        "CPA‑ATC",
+        "CPM",
+        "ROAS",
+        "CPL"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cost per Add‑to‑Cart."
+    },
+    {
+      "id": "q_036",
+      "prompt": "Lookalike 1% audience in Israel approximates what % of population?",
+      "options": [
+        "1%",
+        "2%",
+        "5%",
+        "10%"
+      ],
+      "answerIndex": 0,
+      "explanation": "1% of Israeli FB users."
+    },
+    {
+      "id": "q_037",
+      "prompt": "UTM parameter 'utm_medium' commonly identifies:",
+      "options": [
+        "Channel type",
+        "Campaign name",
+        "Keyword",
+        "Ad creative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medium = type e.g., cpc, email."
+    },
+    {
+      "id": "q_038",
+      "prompt": "In SEO, what file instructs bots which pages NOT to crawl?",
+      "options": [
+        "robots.txt",
+        "sitemap.xml",
+        ".htaccess",
+        "manifest.json"
+      ],
+      "answerIndex": 0,
+      "explanation": "robots.txt sets crawl rules."
+    },
+    {
+      "id": "q_039",
+      "prompt": "Which metric tells you cost per visitor who added item to cart?",
+      "options": [
+        "CPA‑ATC",
+        "CPM",
+        "ROAS",
+        "CPL"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cost per Add‑to‑Cart."
+    },
+    {
+      "id": "q_040",
+      "prompt": "UTM parameter 'utm_medium' commonly identifies:",
+      "options": [
+        "Channel type",
+        "Campaign name",
+        "Keyword",
+        "Ad creative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medium = type e.g., cpc, email."
+    },
+    {
+      "id": "q_041",
+      "prompt": "UTM parameter 'utm_medium' commonly identifies:",
+      "options": [
+        "Channel type",
+        "Campaign name",
+        "Keyword",
+        "Ad creative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medium = type e.g., cpc, email."
+    },
+    {
+      "id": "q_042",
+      "prompt": "A landing page with PageSpeed score < 50 is likely to have:",
+      "options": [
+        "Higher bounce rate",
+        "Faster loading",
+        "Better SEO",
+        "Lower CPC"
+      ],
+      "answerIndex": 0,
+      "explanation": "Slow pages raise bounce and CPC."
+    },
+    {
+      "id": "q_043",
+      "prompt": "UTM parameter 'utm_medium' commonly identifies:",
+      "options": [
+        "Channel type",
+        "Campaign name",
+        "Keyword",
+        "Ad creative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medium = type e.g., cpc, email."
+    },
+    {
+      "id": "q_044",
+      "prompt": "What tag triggers enhanced ecommerce purchase event in GA4?",
+      "options": [
+        "purchase",
+        "transaction",
+        "order",
+        "conversion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Event name 'purchase'."
+    },
+    {
+      "id": "q_045",
+      "prompt": "Which email metric shows ratio of purchases to emails delivered?",
+      "options": [
+        "Conversion Rate",
+        "Open Rate",
+        "CTR",
+        "Bounce Rate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conversion Rate = purchases/emails delivered."
+    },
+    {
+      "id": "q_046",
+      "prompt": "Google Ads Quality Score does NOT include:",
+      "options": [
+        "Ad placement",
+        "Expected CTR",
+        "Ad relevance",
+        "Landing page experience"
+      ],
+      "answerIndex": 0,
+      "explanation": "Placement isn't part of Quality Score."
+    },
+    {
+      "id": "q_047",
+      "prompt": "An H1 tag should appear:",
+      "options": [
+        "Once per page",
+        "Multiple times per page",
+        "Not recommended",
+        "Only in footer"
+      ],
+      "answerIndex": 0,
+      "explanation": "One primary H1 helps hierarchy."
+    },
+    {
+      "id": "q_048",
+      "prompt": "A landing page with PageSpeed score < 50 is likely to have:",
+      "options": [
+        "Higher bounce rate",
+        "Faster loading",
+        "Better SEO",
+        "Lower CPC"
+      ],
+      "answerIndex": 0,
+      "explanation": "Slow pages raise bounce and CPC."
+    },
+    {
+      "id": "q_049",
+      "prompt": "Which email metric shows ratio of purchases to emails delivered?",
+      "options": [
+        "Conversion Rate",
+        "Open Rate",
+        "CTR",
+        "Bounce Rate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conversion Rate = purchases/emails delivered."
+    },
+    {
+      "id": "q_050",
+      "prompt": "In SEO, what file instructs bots which pages NOT to crawl?",
+      "options": [
+        "robots.txt",
+        "sitemap.xml",
+        ".htaccess",
+        "manifest.json"
+      ],
+      "answerIndex": 0,
+      "explanation": "robots.txt sets crawl rules."
+    },
+    {
+      "id": "q_051",
+      "prompt": "What tag triggers enhanced ecommerce purchase event in GA4?",
+      "options": [
+        "purchase",
+        "transaction",
+        "order",
+        "conversion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Event name 'purchase'."
+    },
+    {
+      "id": "q_052",
+      "prompt": "UTM parameter 'utm_medium' commonly identifies:",
+      "options": [
+        "Channel type",
+        "Campaign name",
+        "Keyword",
+        "Ad creative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medium = type e.g., cpc, email."
+    },
+    {
+      "id": "q_053",
+      "prompt": "A landing page with PageSpeed score < 50 is likely to have:",
+      "options": [
+        "Higher bounce rate",
+        "Faster loading",
+        "Better SEO",
+        "Lower CPC"
+      ],
+      "answerIndex": 0,
+      "explanation": "Slow pages raise bounce and CPC."
+    },
+    {
+      "id": "q_054",
+      "prompt": "UTM parameter 'utm_medium' commonly identifies:",
+      "options": [
+        "Channel type",
+        "Campaign name",
+        "Keyword",
+        "Ad creative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medium = type e.g., cpc, email."
+    },
+    {
+      "id": "q_055",
+      "prompt": "A landing page with PageSpeed score < 50 is likely to have:",
+      "options": [
+        "Higher bounce rate",
+        "Faster loading",
+        "Better SEO",
+        "Lower CPC"
+      ],
+      "answerIndex": 0,
+      "explanation": "Slow pages raise bounce and CPC."
+    },
+    {
+      "id": "q_056",
+      "prompt": "Which metric tells you cost per visitor who added item to cart?",
+      "options": [
+        "CPA‑ATC",
+        "CPM",
+        "ROAS",
+        "CPL"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cost per Add‑to‑Cart."
+    },
+    {
+      "id": "q_057",
+      "prompt": "UTM parameter 'utm_medium' commonly identifies:",
+      "options": [
+        "Channel type",
+        "Campaign name",
+        "Keyword",
+        "Ad creative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medium = type e.g., cpc, email."
+    },
+    {
+      "id": "q_058",
+      "prompt": "Google Ads Quality Score does NOT include:",
+      "options": [
+        "Ad placement",
+        "Expected CTR",
+        "Ad relevance",
+        "Landing page experience"
+      ],
+      "answerIndex": 0,
+      "explanation": "Placement isn't part of Quality Score."
+    },
+    {
+      "id": "q_059",
+      "prompt": "Which metric tells you cost per visitor who added item to cart?",
+      "options": [
+        "CPA‑ATC",
+        "CPM",
+        "ROAS",
+        "CPL"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cost per Add‑to‑Cart."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc_000",
+      "term": "ROAS",
+      "definition": "Return on Ad Spend – revenue divided by ad cost."
+    },
+    {
+      "id": "fc_001",
+      "term": "CTR",
+      "definition": "Click‑Through Rate – clicks divided by impressions."
+    },
+    {
+      "id": "fc_002",
+      "term": "CPM",
+      "definition": "Cost per 1,000 impressions."
+    },
+    {
+      "id": "fc_003",
+      "term": "CPC",
+      "definition": "Cost per click."
+    },
+    {
+      "id": "fc_004",
+      "term": "CR",
+      "definition": "Conversion Rate – conversions divided by clicks."
+    },
+    {
+      "id": "fc_005",
+      "term": "LTV",
+      "definition": "Lifetime Value – total revenue per customer over lifespan."
+    },
+    {
+      "id": "fc_006",
+      "term": "AOV",
+      "definition": "Average Order Value – total revenue divided by number of orders."
+    },
+    {
+      "id": "fc_007",
+      "term": "Pixel",
+      "definition": "JavaScript snippet that tracks user actions on a site."
+    },
+    {
+      "id": "fc_008",
+      "term": "Lookalike Audience",
+      "definition": "Audience that shares traits with a seed list."
+    },
+    {
+      "id": "fc_009",
+      "term": "Custom Audience",
+      "definition": "Audience built from first‑party data like email list."
+    },
+    {
+      "id": "fc_010",
+      "term": "GA4",
+      "definition": "Google Analytics v4 – event‑driven analytics platform."
+    },
+    {
+      "id": "fc_011",
+      "term": "UTM",
+      "definition": "Urchin Tracking Module parameters appended to URLs."
+    },
+    {
+      "id": "fc_012",
+      "term": "Responsive Search Ads",
+      "definition": "Google ad type that auto‑tests headlines."
+    },
+    {
+      "id": "fc_013",
+      "term": "SEO",
+      "definition": "Search Engine Optimization."
+    },
+    {
+      "id": "fc_014",
+      "term": "Schema Markup",
+      "definition": "Structured data vocabulary for search engines."
+    },
+    {
+      "id": "fc_015",
+      "term": "Alt Text",
+      "definition": "Alternative text attribute for images."
+    },
+    {
+      "id": "fc_016",
+      "term": "Shopify Theme",
+      "definition": "Template that controls store design."
+    },
+    {
+      "id": "fc_017",
+      "term": "Collection Page",
+      "definition": "Shopify page that groups related products."
+    },
+    {
+      "id": "fc_018",
+      "term": "Dynamic Retargeting",
+      "definition": "Ads showing products a user viewed."
+    },
+    {
+      "id": "fc_019",
+      "term": "Cross‑Border Fees",
+      "definition": "Extra shipping/duty costs for international orders."
+    },
+    {
+      "id": "fc_020",
+      "term": "Page Speed",
+      "definition": "Time it takes a page to fully render."
+    },
+    {
+      "id": "fc_021",
+      "term": "Heatmap",
+      "definition": "Visual representation of user clicks/scrolls."
+    },
+    {
+      "id": "fc_022",
+      "term": "Looker Studio",
+      "definition": "Google data visualization tool."
+    },
+    {
+      "id": "fc_023",
+      "term": "Lighthouse",
+      "definition": "Open‑source page audit tool."
+    },
+    {
+      "id": "fc_024",
+      "term": "Klaviyo",
+      "definition": "Email/SMS platform for ecommerce."
+    },
+    {
+      "id": "fc_025",
+      "term": "Bounce Rate",
+      "definition": "Sessions with only one pageview."
+    },
+    {
+      "id": "fc_026",
+      "term": "Facebook Conversion API",
+      "definition": "Server‑side event tracking method."
+    },
+    {
+      "id": "fc_027",
+      "term": "A/B Test",
+      "definition": "Experiment comparing two variants."
+    },
+    {
+      "id": "fc_028",
+      "term": "FOMO",
+      "definition": "Fear Of Missing Out – persuasion principle."
+    },
+    {
+      "id": "fc_029",
+      "term": "Hero Section",
+      "definition": "Top fold of a landing page."
+    },
+    {
+      "id": "fc_030",
+      "term": "Exit Intent Popup",
+      "definition": "Modal triggered when user moves cursor to exit."
+    },
+    {
+      "id": "fc_031",
+      "term": "CPA",
+      "definition": "Cost per Acquisition."
+    },
+    {
+      "id": "fc_032",
+      "term": "Attribution Window",
+      "definition": "Time period crediting a conversion to an ad."
+    },
+    {
+      "id": "fc_033",
+      "term": "TOFU",
+      "definition": "Top of Funnel – awareness stage."
+    },
+    {
+      "id": "fc_034",
+      "term": "MOFU",
+      "definition": "Middle of Funnel – consideration stage."
+    },
+    {
+      "id": "fc_035",
+      "term": "BOFU",
+      "definition": "Bottom of Funnel – conversion stage."
+    },
+    {
+      "id": "fc_036",
+      "term": "SaaS",
+      "definition": "Software as a Service."
+    },
+    {
+      "id": "fc_037",
+      "term": "First‑Party Data",
+      "definition": "Data collected directly from customers."
+    },
+    {
+      "id": "fc_038",
+      "term": "Zero‑Party Data",
+      "definition": "Data intentionally shared by users."
+    },
+    {
+      "id": "fc_039",
+      "term": "Retargeting",
+      "definition": "Ads targeting previous visitors."
+    },
+    {
+      "id": "fc_040",
+      "term": "Crawl Budget",
+      "definition": "Number of pages search engine crawls in timeframe."
+    },
+    {
+      "id": "fc_041",
+      "term": "Robots.txt",
+      "definition": "File telling bots what to crawl."
+    },
+    {
+      "id": "fc_042",
+      "term": "Conversion API Gateway",
+      "definition": "Serverless deployment for CAPI."
+    },
+    {
+      "id": "fc_043",
+      "term": "Hreflang",
+      "definition": "Meta tag indicating language/region variants."
+    },
+    {
+      "id": "fc_044",
+      "term": "Canonical Tag",
+      "definition": "Specifies preferred page version."
+    },
+    {
+      "id": "fc_045",
+      "term": "Responsive Design",
+      "definition": "Layout adapts to screen size."
+    },
+    {
+      "id": "fc_046",
+      "term": "Viewport Meta Tag",
+      "definition": "Controls mobile viewport settings."
+    },
+    {
+      "id": "fc_047",
+      "term": "Core Web Vitals",
+      "definition": "Page performance metrics (LCP, FID, CLS)."
+    },
+    {
+      "id": "fc_048",
+      "term": "Product Feed",
+      "definition": "Structured product data for ads."
+    },
+    {
+      "id": "fc_049",
+      "term": "Dynamic Creative",
+      "definition": "Ad that assembles asset combinations."
+    },
+    {
+      "id": "fc_050",
+      "term": "Cart Abandonment",
+      "definition": "User leaves without purchasing after cart."
+    }
+  ],
+  "matchingPairs": [
+    {
+      "metric": "ROAS",
+      "definition": "Revenue ÷ Ad Spend"
+    },
+    {
+      "metric": "CTR",
+      "definition": "Clicks ÷ Impressions"
+    },
+    {
+      "metric": "CPM",
+      "definition": "Cost per 1,000 Impressions"
+    },
+    {
+      "metric": "CPC",
+      "definition": "Cost per Click"
+    },
+    {
+      "metric": "CR",
+      "definition": "Conversions ÷ Clicks"
+    },
+    {
+      "metric": "AOV",
+      "definition": "Total Revenue ÷ Orders"
+    },
+    {
+      "metric": "Bounce Rate",
+      "definition": "Single‑page Sessions ÷ Total Sessions"
+    },
+    {
+      "metric": "Frequency",
+      "definition": "Average Impressions per User"
+    },
+    {
+      "metric": "Quality Score",
+      "definition": "Google Ads metric of relevance & expected CTR"
+    },
+    {
+      "metric": "Page Speed",
+      "definition": "Time to Interactive & LCP"
+    },
+    {
+      "metric": "H1",
+      "definition": "Main Heading of a Page"
+    },
+    {
+      "metric": "Alt Text",
+      "definition": "Image Description Attribute"
+    },
+    {
+      "metric": "Lookalike 1%",
+      "definition": "Audience of top 1% similarity"
+    },
+    {
+      "metric": "Pixel Event",
+      "definition": "Tracked Action on Site"
+    },
+    {
+      "metric": "Add‑To‑Cart",
+      "definition": "User adds item to cart"
+    },
+    {
+      "metric": "Checkout Started",
+      "definition": "User initiated checkout process"
+    },
+    {
+      "metric": "Purchase",
+      "definition": "Completed Order Event"
+    },
+    {
+      "metric": "CAPI",
+      "definition": "Server‑side Conversion Tracking"
+    },
+    {
+      "metric": "GA4 Property",
+      "definition": "Google Analytics v4 Container"
+    },
+    {
+      "metric": "Session Duration",
+      "definition": "Average Time per Visit"
+    },
+    {
+      "metric": "LCP",
+      "definition": "Largest Contentful Paint"
+    },
+    {
+      "metric": "CLS",
+      "definition": "Cumulative Layout Shift"
+    },
+    {
+      "metric": "FID",
+      "definition": "First Input Delay"
+    },
+    {
+      "metric": "Return Customer",
+      "definition": "Shopify tag for repeat purchaser"
+    },
+    {
+      "metric": "Cart Recovery Email",
+      "definition": "Email sent after abandonment"
+    },
+    {
+      "metric": "UTM Source",
+      "definition": "Traffic Origin Parameter"
+    },
+    {
+      "metric": "UTM Campaign",
+      "definition": "Marketing Campaign Identifier"
+    },
+    {
+      "metric": "Search Console",
+      "definition": "Google’s web property tool"
+    },
+    {
+      "metric": "Backlink",
+      "definition": "Inbound external link"
+    },
+    {
+      "metric": "Hreflang",
+      "definition": "Language/Region Indicator"
+    },
+    {
+      "metric": "Canonical",
+      "definition": "Preferred URL version"
+    },
+    {
+      "metric": "Robots.txt",
+      "definition": "Crawl instructions file"
+    },
+    {
+      "metric": "Sitemap.xml",
+      "definition": "List of site URLs for bots"
+    },
+    {
+      "metric": "Lighthouse Score",
+      "definition": "0‑100 page audit metric"
+    },
+    {
+      "metric": "Viewport",
+      "definition": "Browser visible area size"
+    },
+    {
+      "metric": "Breakpoints",
+      "definition": "CSS widths for responsive layout"
+    },
+    {
+      "metric": "Klaviyo Flow",
+      "definition": "Automated Email Sequence"
+    },
+    {
+      "metric": "Segment",
+      "definition": "Subset of users with shared traits"
+    },
+    {
+      "metric": "Engagement Rate",
+      "definition": "Interactions ÷ Reach"
+    },
+    {
+      "metric": "Churn",
+      "definition": "Customer attrition rate"
+    }
+  ],
+  "acronyms": [
+    {
+      "acronym": "ROAS",
+      "expansion": "Return on Ad Spend"
+    },
+    {
+      "acronym": "CTR",
+      "expansion": "Click‑Through Rate"
+    },
+    {
+      "acronym": "CPC",
+      "expansion": "Cost per Click"
+    },
+    {
+      "acronym": "CPM",
+      "expansion": "Cost per Mille"
+    },
+    {
+      "acronym": "CPA",
+      "expansion": "Cost per Acquisition"
+    },
+    {
+      "acronym": "AOV",
+      "expansion": "Average Order Value"
+    },
+    {
+      "acronym": "LTV",
+      "expansion": "Lifetime Value"
+    },
+    {
+      "acronym": "CR",
+      "expansion": "Conversion Rate"
+    },
+    {
+      "acronym": "SEO",
+      "expansion": "Search Engine Optimization"
+    },
+    {
+      "acronym": "SEM",
+      "expansion": "Search Engine Marketing"
+    },
+    {
+      "acronym": "SaaS",
+      "expansion": "Software as a Service"
+    },
+    {
+      "acronym": "CMS",
+      "expansion": "Content Management System"
+    },
+    {
+      "acronym": "GA4",
+      "expansion": "Google Analytics 4"
+    },
+    {
+      "acronym": "UX",
+      "expansion": "User Experience"
+    },
+    {
+      "acronym": "UI",
+      "expansion": "User Interface"
+    },
+    {
+      "acronym": "PPC",
+      "expansion": "Pay Per Click"
+    },
+    {
+      "acronym": "KPI",
+      "expansion": "Key Performance Indicator"
+    },
+    {
+      "acronym": "TOFU",
+      "expansion": "Top of Funnel"
+    },
+    {
+      "acronym": "MOFU",
+      "expansion": "Middle of Funnel"
+    },
+    {
+      "acronym": "BOFU",
+      "expansion": "Bottom of Funnel"
+    },
+    {
+      "acronym": "SQL",
+      "expansion": "Sales Qualified Lead"
+    },
+    {
+      "acronym": "MQL",
+      "expansion": "Marketing Qualified Lead"
+    },
+    {
+      "acronym": "ABM",
+      "expansion": "Account‑Based Marketing"
+    },
+    {
+      "acronym": "CRO",
+      "expansion": "Conversion Rate Optimization"
+    },
+    {
+      "acronym": "LCP",
+      "expansion": "Largest Contentful Paint"
+    },
+    {
+      "acronym": "FID",
+      "expansion": "First Input Delay"
+    },
+    {
+      "acronym": "CLS",
+      "expansion": "Cumulative Layout Shift"
+    },
+    {
+      "acronym": "RPS",
+      "expansion": "Revenue per Session"
+    },
+    {
+      "acronym": "CLV",
+      "expansion": "Customer Lifetime Value"
+    },
+    {
+      "acronym": "DPA",
+      "expansion": "Dynamic Product Ads"
+    },
+    {
+      "acronym": "DSA",
+      "expansion": "Dynamic Search Ads"
+    },
+    {
+      "acronym": "DSP",
+      "expansion": "Demand Side Platform"
+    },
+    {
+      "acronym": "CDP",
+      "expansion": "Customer Data Platform"
+    },
+    {
+      "acronym": "ESP",
+      "expansion": "Email Service Provider"
+    },
+    {
+      "acronym": "CAPI",
+      "expansion": "Conversions API"
+    },
+    {
+      "acronym": "GTM",
+      "expansion": "Google Tag Manager"
+    },
+    {
+      "acronym": "SPA",
+      "expansion": "Single Page Application"
+    },
+    {
+      "acronym": "PWA",
+      "expansion": "Progressive Web App"
+    },
+    {
+      "acronym": "EPC",
+      "expansion": "Earnings per Click"
+    },
+    {
+      "acronym": "CTR%",
+      "expansion": "Click‑Through Rate Percent"
+    }
+  ],
+  "cases": [
+    {
+      "id": "case_00",
+      "scenario": "Your Shopify Israel store experienced a 40% traffic spike from a Meta campaign but conversions fell by 10%. Outline your investigative steps and optimisation plan.",
+      "guidance": ""
+    },
+    {
+      "id": "case_01",
+      "scenario": "A prospecting Meta ad set targeting 25–34 y/o males in Tel Aviv shows CPM 40% above account average. How would you diagnose and resolve?",
+      "guidance": ""
+    },
+    {
+      "id": "case_02",
+      "scenario": "Open rates on your abandoned cart flow fell from 40% to 18% over two months. What data would you check and what changes would you test?",
+      "guidance": ""
+    },
+    {
+      "id": "case_03",
+      "scenario": "Impressions for tactical vest keywords have stagnated in Search Console Israel for 3 months. What actions would you prioritise to reignite growth?",
+      "guidance": ""
+    },
+    {
+      "id": "case_04",
+      "scenario": "GA4 reports 20% less revenue than Shopify for the same period. List possible causes and how you'd systematically find the culprit.",
+      "guidance": ""
+    },
+    {
+      "id": "case_05",
+      "scenario": "You have two weeks to launch a Hanukkah promo for Israel. Outline a lean, high‑impact campaign plan across paid, email, and onsite.",
+      "guidance": ""
+    },
+    {
+      "id": "case_06",
+      "scenario": "Google Merchant Center flags 30% of SKUs with 'missing shipping value'. Explain your remediation workflow.",
+      "guidance": ""
+    },
+    {
+      "id": "case_07",
+      "scenario": "Checkout completion rate on the Hebrew site dropped from 65% to 48% after enabling a new BNPL payment method. How do you assess impact and next steps?",
+      "guidance": ""
+    },
+    {
+      "id": "case_08",
+      "scenario": "Your 1% lookalike ad set is profitable (ROAS 6). How would you scale while maintaining at least ROAS 4?",
+      "guidance": ""
+    },
+    {
+      "id": "case_09",
+      "scenario": "Variant B beats Variant A on CVR but time‑on‑page is lower. Interpret this and decide whether to roll out.",
+      "guidance": ""
+    },
+    {
+      "id": "case_10",
+      "scenario": "After three weeks, CTR on a hero video ad fell from 1.8% to 0.6%. Provide your creative refresh process.",
+      "guidance": ""
+    },
+    {
+      "id": "case_11",
+      "scenario": "USD prices convert oddly on the Israeli store after auto‑currency. Customers complain. Outline your troubleshooting path.",
+      "guidance": ""
+    },
+    {
+      "id": "case_12",
+      "scenario": "Two blog posts rank for the same keyword, hurting overall SERP position. How would you handle?",
+      "guidance": ""
+    },
+    {
+      "id": "case_13",
+      "scenario": "Explain steps to implement Facebook CAPI via GTM server container for the Israeli subdomain.",
+      "guidance": ""
+    },
+    {
+      "id": "case_14",
+      "scenario": "Largest Contentful Paint on product pages averages 4.2 s. Develop a quick-win improvement checklist.",
+      "guidance": ""
+    },
+    {
+      "id": "case_15",
+      "scenario": "Draft key deliverables and KPIs for an Israeli tactical gear influencer collaboration.",
+      "guidance": ""
+    },
+    {
+      "id": "case_16",
+      "scenario": "Repeat purchase rate for Israeli customers fell from 28% to 17%. What lifecycle tactics do you deploy?",
+      "guidance": ""
+    },
+    {
+      "id": "case_17",
+      "scenario": "A distributor network requests co‑branding ad materials. How would you structure the support program?",
+      "guidance": ""
+    },
+    {
+      "id": "case_18",
+      "scenario": "Plan a pop‑up quiz to collect sizing preferences in exchange for coupon. What segmentation and follow‑up actions?",
+      "guidance": ""
+    },
+    {
+      "id": "case_19",
+      "scenario": "Best‑selling backpack is out of stock for 3 weeks. Detail your comms and media adjustments.",
+      "guidance": ""
+    }
+  ]
+}

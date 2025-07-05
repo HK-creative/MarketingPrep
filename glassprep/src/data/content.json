@@ -1,0 +1,1046 @@
+{
+  "quizzes": [
+    {
+      "id": "q_001",
+      "prompt": "What KPI best measures the efficiency of ad spend in e-commerce campaigns?",
+      "options": ["ROAS", "CTR", "CPM", "Bounce Rate"],
+      "answerIndex": 0,
+      "explanation": "ROAS (Return on Ad Spend) directly ties revenue to cost, making it the most important efficiency metric."
+    },
+    {
+      "id": "q_002",
+      "prompt": "In Meta Ads, which audience type updates automatically as new website visitors arrive?",
+      "options": ["Custom Audience based on pixel traffic", "Saved Audience by interest", "Lookalike Audience 1%", "Engagement Audience from Instagram"],
+      "answerIndex": 0,
+      "explanation": "Pixel-based Custom Audiences refresh continuously as new users trigger the pixel events."
+    },
+    {
+      "id": "q_003",
+      "prompt": "Which Google Analytics 4 report shows the path users took before converting?",
+      "options": ["Path Exploration", "Acquisition Overview", "Realtime", "Cohort Analysis"],
+      "answerIndex": 0,
+      "explanation": "Path Exploration visualizes user journeys and conversion paths through your website."
+    },
+    {
+      "id": "q_004",
+      "prompt": "What does a high Frequency in a Meta campaign usually indicate?",
+      "options": ["Ad fatigue risk", "High relevance", "Low budget", "New audience growth"],
+      "answerIndex": 0,
+      "explanation": "High frequency means users see the same ad many times, leading to ad fatigue and declining performance."
+    },
+    {
+      "id": "q_005",
+      "prompt": "Which attribution model gives equal credit to all touchpoints in the customer journey?",
+      "options": ["Linear", "First-click", "Last-click", "Data-driven"],
+      "answerIndex": 0,
+      "explanation": "Linear attribution distributes conversion credit equally across all touchpoints in the path."
+    },
+    {
+      "id": "q_006",
+      "prompt": "What is the primary purpose of Google Tag Manager?",
+      "options": ["Centralized tag management", "Website hosting", "Email marketing", "Social media scheduling"],
+      "answerIndex": 0,
+      "explanation": "GTM allows you to manage all tracking tags from one central location without editing website code."
+    },
+    {
+      "id": "q_007",
+      "prompt": "In programmatic advertising, what does RTB stand for?",
+      "options": ["Real-Time Bidding", "Return to Brand", "Revenue Target Baseline", "Reach Through Behavior"],
+      "answerIndex": 0,
+      "explanation": "Real-Time Bidding is the automated auction process for buying ad inventory in milliseconds."
+    },
+    {
+      "id": "q_008",
+      "prompt": "Which metric is most important for measuring brand awareness campaigns?",
+      "options": ["Reach and Frequency", "CPA", "ROAS", "Conversion Rate"],
+      "answerIndex": 0,
+      "explanation": "Brand awareness campaigns focus on exposing your message to as many relevant people as possible."
+    },
+    {
+      "id": "q_009",
+      "prompt": "What is the ideal email list growth rate per month for most businesses?",
+      "options": ["2-5%", "10-15%", "20-25%", "30%+"],
+      "answerIndex": 0,
+      "explanation": "A healthy email list growth rate is typically 2-5% per month, accounting for natural churn."
+    },
+    {
+      "id": "q_010",
+      "prompt": "Which social media platform has the highest average engagement rate?",
+      "options": ["Instagram", "Facebook", "Twitter", "LinkedIn"],
+      "answerIndex": 0,
+      "explanation": "Instagram consistently shows the highest engagement rates across industries, especially for visual content."
+    },
+    {
+      "id": "q_011",
+      "prompt": "What is the primary benefit of implementing structured data markup?",
+      "options": ["Rich snippets in search results", "Faster page loading", "Better mobile experience", "Lower bounce rate"],
+      "answerIndex": 0,
+      "explanation": "Structured data helps search engines understand content and display rich snippets with enhanced information."
+    },
+    {
+      "id": "q_012",
+      "prompt": "In affiliate marketing, what does EPC typically measure?",
+      "options": ["Earnings Per Click", "Email Per Customer", "Engagement Per Campaign", "Events Per Conversion"],
+      "answerIndex": 0,
+      "explanation": "EPC shows the average earnings generated per click, helping evaluate affiliate performance."
+    },
+    {
+      "id": "q_013",
+      "prompt": "Which bidding strategy in Google Ads focuses on maximizing conversions within a target CPA?",
+      "options": ["Target CPA", "Maximize Clicks", "Target ROAS", "Enhanced CPC"],
+      "answerIndex": 0,
+      "explanation": "Target CPA bidding automatically sets bids to get as many conversions as possible at your target cost-per-acquisition."
+    },
+    {
+      "id": "q_014",
+      "prompt": "What is the recommended video length for maximum engagement on Instagram Reels?",
+      "options": ["15-30 seconds", "60-90 seconds", "2-3 minutes", "5+ minutes"],
+      "answerIndex": 0,
+      "explanation": "Short-form content (15-30 seconds) typically performs best on Instagram Reels for engagement."
+    },
+    {
+      "id": "q_015",
+      "prompt": "Which customer lifetime value calculation method is most accurate?",
+      "options": ["Cohort-based analysis", "Simple average", "Single purchase value", "Monthly revenue average"],
+      "answerIndex": 0,
+      "explanation": "Cohort-based analysis tracks customer behavior over time, providing the most accurate LTV calculations."
+    },
+    {
+      "id": "q_016",
+      "prompt": "What is the primary purpose of a marketing attribution model?",
+      "options": ["Credit touchpoints in customer journey", "Measure brand awareness", "Calculate ad spend", "Track website traffic"],
+      "answerIndex": 0,
+      "explanation": "Attribution models determine how credit for conversions is assigned to different marketing touchpoints."
+    },
+    {
+      "id": "q_017",
+      "prompt": "Which A/B testing mistake is most common in digital marketing?",
+      "options": ["Testing too many variables at once", "Running tests too long", "Using small sample sizes", "Not documenting results"],
+      "answerIndex": 0,
+      "explanation": "Testing multiple variables simultaneously makes it impossible to determine which change caused the result."
+    },
+    {
+      "id": "q_018",
+      "prompt": "What is the ideal frequency cap for display advertising campaigns?",
+      "options": ["3-5 impressions per user per day", "10-15 impressions", "1 impression per day", "No frequency cap"],
+      "answerIndex": 0,
+      "explanation": "3-5 impressions per day typically maximizes reach while minimizing ad fatigue and wasted spend."
+    },
+    {
+      "id": "q_019",
+      "prompt": "Which marketing automation trigger has the highest conversion rate?",
+      "options": ["Abandoned cart emails", "Welcome series", "Birthday emails", "Newsletter signup"],
+      "answerIndex": 0,
+      "explanation": "Abandoned cart emails have high intent users and typically see 10-15% conversion rates."
+    },
+    {
+      "id": "q_020",
+      "prompt": "What is the most effective way to reduce customer acquisition cost (CAC)?",
+      "options": ["Improve conversion rates", "Increase ad spend", "Expand to new channels", "Raise product prices"],
+      "answerIndex": 0,
+      "explanation": "Improving conversion rates means getting more customers from the same traffic, directly reducing CAC."
+    },
+    {
+      "id": "q_021",
+      "prompt": "Which content marketing metric best predicts lead quality?",
+      "options": ["Time on page", "Social shares", "Page views", "Comments"],
+      "answerIndex": 0,
+      "explanation": "Time on page indicates engagement depth and content relevance, correlating with lead quality."
+    },
+    {
+      "id": "q_022",
+      "prompt": "What is the primary advantage of first-party data over third-party data?",
+      "options": ["Higher accuracy and relevance", "Lower cost", "Easier to implement", "Better for cold outreach"],
+      "answerIndex": 0,
+      "explanation": "First-party data comes directly from your customers, making it more accurate and relevant for targeting."
+    },
+    {
+      "id": "q_023",
+      "prompt": "Which email marketing metric is most predictive of list health?",
+      "options": ["List growth rate vs. churn rate", "Open rate", "Click rate", "Unsubscribe rate"],
+      "answerIndex": 0,
+      "explanation": "The balance between new subscribers and those leaving indicates overall list health and quality."
+    },
+    {
+      "id": "q_024",
+      "prompt": "What is the recommended budget allocation for testing new marketing channels?",
+      "options": ["10-20% of total budget", "50% of total budget", "5% of total budget", "30-40% of total budget"],
+      "answerIndex": 0,
+      "explanation": "Allocating 10-20% allows for meaningful testing while maintaining proven channel performance."
+    },
+    {
+      "id": "q_025",
+      "prompt": "Which conversion tracking method is most reliable for iOS 14.5+ campaigns?",
+      "options": ["Server-side tracking", "Pixel-only tracking", "UTM parameters", "Google Analytics only"],
+      "answerIndex": 0,
+      "explanation": "Server-side tracking bypasses browser limitations and provides more accurate data post-iOS 14.5."
+    },
+    {
+      "id": "q_026",
+      "prompt": "What is the most effective way to increase email deliverability?",
+      "options": ["Maintain good sender reputation", "Send more frequently", "Use more images", "Include more links"],
+      "answerIndex": 0,
+      "explanation": "Sender reputation, including domain reputation and engagement rates, is the primary deliverability factor."
+    },
+    {
+      "id": "q_027",
+      "prompt": "Which social proof element is most effective for e-commerce conversions?",
+      "options": ["Customer reviews with photos", "Celebrity endorsements", "Social media follower count", "Press mentions"],
+      "answerIndex": 0,
+      "explanation": "Authentic customer reviews with photos provide credible, relatable social proof that drives conversions."
+    },
+    {
+      "id": "q_028",
+      "prompt": "What is the primary benefit of implementing dynamic creative optimization (DCO)?",
+      "options": ["Personalized ad experiences", "Lower ad costs", "Faster campaign setup", "Better brand awareness"],
+      "answerIndex": 0,
+      "explanation": "DCO automatically personalizes ad creative elements based on user data and behavior patterns."
+    },
+    {
+      "id": "q_029",
+      "prompt": "Which customer segmentation approach typically yields the highest ROI?",
+      "options": ["Behavioral segmentation", "Demographic segmentation", "Geographic segmentation", "Psychographic segmentation"],
+      "answerIndex": 0,
+      "explanation": "Behavioral segmentation based on actions and purchase patterns typically produces the most relevant targeting."
+    },
+    {
+      "id": "q_030",
+      "prompt": "What is the most important factor in influencer marketing campaign success?",
+      "options": ["Audience alignment", "Follower count", "Engagement rate", "Content quality"],
+      "answerIndex": 0,
+      "explanation": "Alignment between the influencer's audience and your target market is crucial for campaign effectiveness."
+    },
+    {
+      "id": "q_031",
+      "prompt": "Which marketing mix modeling approach provides the most actionable insights?",
+      "options": ["Media mix modeling with incrementality testing", "Last-touch attribution", "Simple correlation analysis", "Survey-based attribution"],
+      "answerIndex": 0,
+      "explanation": "MMM combined with incrementality testing provides the most accurate view of true marketing impact."
+    },
+    {
+      "id": "q_032",
+      "prompt": "What is the primary purpose of a customer data platform (CDP)?",
+      "options": ["Unified customer view across touchpoints", "Email marketing automation", "Social media management", "Ad campaign optimization"],
+      "answerIndex": 0,
+      "explanation": "CDPs consolidate customer data from all touchpoints to create a single, comprehensive customer view."
+    },
+    {
+      "id": "q_033",
+      "prompt": "Which pricing strategy is most effective for SaaS customer acquisition?",
+      "options": ["Freemium with clear upgrade path", "High upfront cost", "One-time payment", "Usage-based pricing only"],
+      "answerIndex": 0,
+      "explanation": "Freemium models reduce friction for trial while demonstrating value that encourages upgrades."
+    },
+    {
+      "id": "q_034",
+      "prompt": "What is the most effective way to reduce shopping cart abandonment?",
+      "options": ["Simplify checkout process", "Add more payment options", "Increase security badges", "Offer free shipping"],
+      "answerIndex": 0,
+      "explanation": "A simplified, streamlined checkout process addresses the primary cause of cart abandonment - friction."
+    },
+    {
+      "id": "q_035",
+      "prompt": "Which content distribution strategy typically generates the highest engagement?",
+      "options": ["Platform-native content", "Cross-posting identical content", "Link-only posts", "Automated syndication"],
+      "answerIndex": 0,
+      "explanation": "Content optimized for each platform's specific format and audience performs significantly better."
+    },
+    {
+      "id": "q_036",
+      "prompt": "What is the most important metric for measuring customer success in SaaS?",
+      "options": ["Net Revenue Retention", "Monthly Active Users", "Customer Acquisition Cost", "Churn Rate"],
+      "answerIndex": 0,
+      "explanation": "NRR measures expansion revenue and retention combined, indicating true customer success and business health."
+    },
+    {
+      "id": "q_037",
+      "prompt": "Which remarketing strategy typically has the highest conversion rate?",
+      "options": ["Product-specific dynamic ads", "Generic brand awareness", "Discount-focused campaigns", "Newsletter signup prompts"],
+      "answerIndex": 0,
+      "explanation": "Dynamic ads showing specific products users viewed have high relevance and conversion intent."
+    },
+    {
+      "id": "q_038",
+      "prompt": "What is the primary advantage of zero-party data collection?",
+      "options": ["Direct customer intent and preferences", "Lower collection costs", "Easier to implement", "Better for cold outreach"],
+      "answerIndex": 0,
+      "explanation": "Zero-party data represents explicit customer preferences and intentions, providing high-quality targeting data."
+    },
+    {
+      "id": "q_039",
+      "prompt": "Which video marketing metric best predicts campaign success?",
+      "options": ["View-through rate", "Total views", "Social shares", "Comments"],
+      "answerIndex": 0,
+      "explanation": "View-through rate indicates content engagement and relevance, predicting conversion potential."
+    },
+    {
+      "id": "q_040",
+      "prompt": "What is the most effective approach for international market expansion?",
+      "options": ["Localized content and cultural adaptation", "Direct translation of existing content", "Universal English content", "Price-focused strategies"],
+      "answerIndex": 0,
+      "explanation": "Cultural adaptation and localization significantly improve market penetration and customer connection."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc_001",
+      "term": "ROAS",
+      "definition": "Return on Ad Spend - revenue divided by advertising cost, the key metric for measuring ad efficiency."
+    },
+    {
+      "id": "fc_002",
+      "term": "CTR",
+      "definition": "Click-Through Rate - percentage of people who click on an ad after seeing it (clicks ÷ impressions)."
+    },
+    {
+      "id": "fc_003",
+      "term": "CPM",
+      "definition": "Cost per Mille - cost to reach 1,000 people with your advertisement."
+    },
+    {
+      "id": "fc_004",
+      "term": "CPC",
+      "definition": "Cost per Click - average amount paid each time someone clicks your ad."
+    },
+    {
+      "id": "fc_005",
+      "term": "CPA",
+      "definition": "Cost per Acquisition - average cost to acquire one customer or conversion."
+    },
+    {
+      "id": "fc_006",
+      "term": "LTV",
+      "definition": "Lifetime Value - total revenue expected from a customer over their entire relationship with your business."
+    },
+    {
+      "id": "fc_007",
+      "term": "AOV",
+      "definition": "Average Order Value - average amount spent per transaction (total revenue ÷ number of orders)."
+    },
+    {
+      "id": "fc_008",
+      "term": "CAC",
+      "definition": "Customer Acquisition Cost - total cost of acquiring a new customer, including all marketing expenses."
+    },
+    {
+      "id": "fc_009",
+      "term": "Cohort Analysis",
+      "definition": "Method of analyzing user behavior by grouping customers who share common characteristics over time."
+    },
+    {
+      "id": "fc_010",
+      "term": "Attribution Model",
+      "definition": "Framework for assigning credit to different marketing touchpoints in the customer journey."
+    },
+    {
+      "id": "fc_011",
+      "term": "Programmatic Advertising",
+      "definition": "Automated buying and selling of digital advertising inventory using real-time bidding technology."
+    },
+    {
+      "id": "fc_012",
+      "term": "Lookalike Audience",
+      "definition": "Targeting method that finds users similar to your existing customers based on shared characteristics."
+    },
+    {
+      "id": "fc_013",
+      "term": "Retargeting",
+      "definition": "Marketing strategy that targets users who have previously interacted with your brand or website."
+    },
+    {
+      "id": "fc_014",
+      "term": "Conversion Funnel",
+      "definition": "Visual representation of the customer journey from awareness to purchase, showing drop-off points."
+    },
+    {
+      "id": "fc_015",
+      "term": "A/B Testing",
+      "definition": "Method of comparing two versions of a webpage, ad, or email to determine which performs better."
+    },
+    {
+      "id": "fc_016",
+      "term": "Marketing Automation",
+      "definition": "Technology that manages marketing processes and campaigns automatically based on predefined triggers."
+    },
+    {
+      "id": "fc_017",
+      "term": "Lead Scoring",
+      "definition": "Process of ranking prospects based on their likelihood to become customers using behavioral and demographic data."
+    },
+    {
+      "id": "fc_018",
+      "term": "Customer Journey",
+      "definition": "Complete experience a customer has with your brand, from initial awareness to post-purchase advocacy."
+    },
+    {
+      "id": "fc_019",
+      "term": "Omnichannel Marketing",
+      "definition": "Integrated approach providing consistent customer experience across all channels and touchpoints."
+    },
+    {
+      "id": "fc_020",
+      "term": "Marketing Mix Modeling",
+      "definition": "Statistical analysis technique measuring the impact of various marketing activities on sales and ROI."
+    },
+    {
+      "id": "fc_021",
+      "term": "Dynamic Creative Optimization",
+      "definition": "Technology that automatically personalizes ad creative elements based on user data and behavior."
+    },
+    {
+      "id": "fc_022",
+      "term": "Customer Data Platform",
+      "definition": "Software that creates unified customer profiles by collecting data from multiple touchpoints."
+    },
+    {
+      "id": "fc_023",
+      "term": "Incrementality Testing",
+      "definition": "Method to measure the true incremental impact of marketing activities by comparing test and control groups."
+    },
+    {
+      "id": "fc_024",
+      "term": "Net Promoter Score",
+      "definition": "Metric measuring customer loyalty by asking how likely customers are to recommend your business (0-10 scale)."
+    },
+    {
+      "id": "fc_025",
+      "term": "Churn Rate",
+      "definition": "Percentage of customers who stop using your product or service during a specific time period."
+    },
+    {
+      "id": "fc_026",
+      "term": "Conversion Rate Optimization",
+      "definition": "Process of improving website elements to increase the percentage of visitors who complete desired actions."
+    },
+    {
+      "id": "fc_027",
+      "term": "User-Generated Content",
+      "definition": "Content created by customers about your brand, including reviews, photos, videos, and social media posts."
+    },
+    {
+      "id": "fc_028",
+      "term": "Influencer Marketing",
+      "definition": "Strategy leveraging individuals with large social followings to promote products or services to their audience."
+    },
+    {
+      "id": "fc_029",
+      "term": "Growth Hacking",
+      "definition": "Marketing approach focused on rapid experimentation and data-driven strategies to achieve scalable growth."
+    },
+    {
+      "id": "fc_030",
+      "term": "Customer Segmentation",
+      "definition": "Process of dividing customers into groups based on shared characteristics, behaviors, or preferences."
+    },
+    {
+      "id": "fc_031",
+      "term": "Marketing Qualified Lead",
+      "definition": "Prospect who has shown interest in your product and meets criteria indicating sales readiness."
+    },
+    {
+      "id": "fc_032",
+      "term": "Sales Qualified Lead",
+      "definition": "Lead that has been vetted by marketing and sales teams and is ready for direct sales contact."
+    },
+    {
+      "id": "fc_033",
+      "term": "Account-Based Marketing",
+      "definition": "Strategic approach targeting specific high-value accounts with personalized marketing campaigns."
+    },
+    {
+      "id": "fc_034",
+      "term": "Content Marketing",
+      "definition": "Strategy focused on creating and distributing valuable content to attract and engage target audiences."
+    },
+    {
+      "id": "fc_035",
+      "term": "Search Engine Optimization",
+      "definition": "Practice of optimizing websites to improve visibility and ranking in search engine results pages."
+    },
+    {
+      "id": "fc_036",
+      "term": "Pay-Per-Click Advertising",
+      "definition": "Online advertising model where advertisers pay each time their ad is clicked by a user."
+    },
+    {
+      "id": "fc_037",
+      "term": "Social Media Marketing",
+      "definition": "Use of social media platforms to promote products, build brand awareness, and engage with customers."
+    },
+    {
+      "id": "fc_038",
+      "term": "Email Marketing",
+      "definition": "Direct marketing channel using email to promote products, nurture leads, and maintain customer relationships."
+    },
+    {
+      "id": "fc_039",
+      "term": "Affiliate Marketing",
+      "definition": "Performance-based marketing where businesses pay partners for customers acquired through their marketing efforts."
+    },
+    {
+      "id": "fc_040",
+      "term": "Brand Awareness",
+      "definition": "Measure of how familiar consumers are with your brand and its products or services."
+    },
+    {
+      "id": "fc_041",
+      "term": "Customer Retention",
+      "definition": "Company's ability to keep customers over time, measured as percentage of customers who continue purchasing."
+    },
+    {
+      "id": "fc_042",
+      "term": "Market Penetration",
+      "definition": "Percentage of target market that has purchased your product, indicating market share within addressable market."
+    },
+    {
+      "id": "fc_043",
+      "term": "Cross-selling",
+      "definition": "Sales technique encouraging customers to purchase related or complementary products to their original purchase."
+    },
+    {
+      "id": "fc_044",
+      "term": "Upselling",
+      "definition": "Sales strategy encouraging customers to purchase higher-end or more expensive versions of products they're considering."
+    },
+    {
+      "id": "fc_045",
+      "term": "Customer Experience",
+      "definition": "Overall perception customers have of your brand based on all interactions throughout the customer journey."
+    },
+    {
+      "id": "fc_046",
+      "term": "Personalization",
+      "definition": "Marketing approach that uses customer data to deliver individualized experiences, content, and offers."
+    },
+    {
+      "id": "fc_047",
+      "term": "Marketing Attribution",
+      "definition": "Process of identifying which marketing channels and touchpoints contribute to conversions and sales."
+    },
+    {
+      "id": "fc_048",
+      "term": "Demand Generation",
+      "definition": "Marketing strategy focused on creating awareness and interest in your products or services among target audiences."
+    },
+    {
+      "id": "fc_049",
+      "term": "Lead Nurturing",
+      "definition": "Process of developing relationships with prospects at every stage of the sales funnel through targeted communication."
+    },
+    {
+      "id": "fc_050",
+      "term": "Performance Marketing",
+      "definition": "Digital marketing approach where advertisers pay only when specific actions are completed, such as clicks or conversions."
+    }
+  ],
+  "matchingPairs": [
+    {
+      "metric": "ROAS",
+      "definition": "Revenue ÷ Ad Spend"
+    },
+    {
+      "metric": "CTR",
+      "definition": "Clicks ÷ Impressions × 100"
+    },
+    {
+      "metric": "CPM",
+      "definition": "Cost ÷ (Impressions ÷ 1000)"
+    },
+    {
+      "metric": "CPC",
+      "definition": "Total Cost ÷ Total Clicks"
+    },
+    {
+      "metric": "CPA",
+      "definition": "Total Cost ÷ Total Acquisitions"
+    },
+    {
+      "metric": "LTV",
+      "definition": "Average Purchase Value × Purchase Frequency × Customer Lifespan"
+    },
+    {
+      "metric": "CAC",
+      "definition": "Total Marketing Cost ÷ New Customers Acquired"
+    },
+    {
+      "metric": "AOV",
+      "definition": "Total Revenue ÷ Number of Orders"
+    },
+    {
+      "metric": "Conversion Rate",
+      "definition": "Conversions ÷ Total Visitors × 100"
+    },
+    {
+      "metric": "Bounce Rate",
+      "definition": "Single-page Sessions ÷ Total Sessions × 100"
+    },
+    {
+      "metric": "Churn Rate",
+      "definition": "Lost Customers ÷ Total Customers at Start × 100"
+    },
+    {
+      "metric": "NPS",
+      "definition": "% Promoters - % Detractors"
+    },
+    {
+      "metric": "Email Open Rate",
+      "definition": "Emails Opened ÷ Emails Delivered × 100"
+    },
+    {
+      "metric": "Email Click Rate",
+      "definition": "Clicks ÷ Emails Delivered × 100"
+    },
+    {
+      "metric": "Social Engagement Rate",
+      "definition": "Total Engagements ÷ Total Followers × 100"
+    },
+    {
+      "metric": "Cost per Lead",
+      "definition": "Total Marketing Cost ÷ Total Leads Generated"
+    },
+    {
+      "metric": "Lead-to-Customer Rate",
+      "definition": "Customers ÷ Total Leads × 100"
+    },
+    {
+      "metric": "Customer Retention Rate",
+      "definition": "Customers at End - New Customers ÷ Customers at Start × 100"
+    },
+    {
+      "metric": "Monthly Recurring Revenue",
+      "definition": "Sum of all subscription revenue normalized to monthly amounts"
+    },
+    {
+      "metric": "Customer Satisfaction Score",
+      "definition": "Average rating from customer satisfaction surveys"
+    },
+    {
+      "metric": "Time to Conversion",
+      "definition": "Average time from first touch to conversion"
+    },
+    {
+      "metric": "Frequency",
+      "definition": "Total Impressions ÷ Unique Reach"
+    },
+    {
+      "metric": "Quality Score",
+      "definition": "Google's rating of ad relevance and landing page experience"
+    },
+    {
+      "metric": "Impression Share",
+      "definition": "Impressions Received ÷ Total Available Impressions × 100"
+    },
+    {
+      "metric": "View-through Rate",
+      "definition": "Video Views ÷ Video Impressions × 100"
+    },
+    {
+      "metric": "Cost per View",
+      "definition": "Total Video Ad Spend ÷ Total Video Views"
+    },
+    {
+      "metric": "Social Share Rate",
+      "definition": "Social Shares ÷ Total Content Views × 100"
+    },
+    {
+      "metric": "Page Load Time",
+      "definition": "Average time for page to fully load in seconds"
+    },
+    {
+      "metric": "Mobile Traffic Share",
+      "definition": "Mobile Sessions ÷ Total Sessions × 100"
+    },
+    {
+      "metric": "Return Visitor Rate",
+      "definition": "Returning Visitors ÷ Total Visitors × 100"
+    },
+    {
+      "metric": "Cart Abandonment Rate",
+      "definition": "Abandoned Carts ÷ Created Carts × 100"
+    },
+    {
+      "metric": "Revenue per Visitor",
+      "definition": "Total Revenue ÷ Total Website Visitors"
+    },
+    {
+      "metric": "Cost per Thousand Impressions",
+      "definition": "Total Cost ÷ (Impressions ÷ 1000)"
+    },
+    {
+      "metric": "Click-to-Open Rate",
+      "definition": "Email Clicks ÷ Email Opens × 100"
+    },
+    {
+      "metric": "Unsubscribe Rate",
+      "definition": "Unsubscribes ÷ Emails Delivered × 100"
+    },
+    {
+      "metric": "Social Reach",
+      "definition": "Total unique users who saw your content"
+    },
+    {
+      "metric": "Organic Traffic Share",
+      "definition": "Organic Sessions ÷ Total Sessions × 100"
+    },
+    {
+      "metric": "Paid Traffic Share",
+      "definition": "Paid Sessions ÷ Total Sessions × 100"
+    },
+    {
+      "metric": "Brand Mention Volume",
+      "definition": "Total number of brand mentions across all channels"
+    },
+    {
+      "metric": "Share of Voice",
+      "definition": "Your Brand Mentions ÷ Total Industry Mentions × 100"
+    }
+  ],
+  "acronyms": [
+    {
+      "acronym": "ROAS",
+      "expansion": "Return on Ad Spend"
+    },
+    {
+      "acronym": "CTR",
+      "expansion": "Click-Through Rate"
+    },
+    {
+      "acronym": "CPC",
+      "expansion": "Cost per Click"
+    },
+    {
+      "acronym": "CPM",
+      "expansion": "Cost per Mille"
+    },
+    {
+      "acronym": "CPA",
+      "expansion": "Cost per Acquisition"
+    },
+    {
+      "acronym": "CAC",
+      "expansion": "Customer Acquisition Cost"
+    },
+    {
+      "acronym": "LTV",
+      "expansion": "Lifetime Value"
+    },
+    {
+      "acronym": "AOV",
+      "expansion": "Average Order Value"
+    },
+    {
+      "acronym": "SEO",
+      "expansion": "Search Engine Optimization"
+    },
+    {
+      "acronym": "SEM",
+      "expansion": "Search Engine Marketing"
+    },
+    {
+      "acronym": "PPC",
+      "expansion": "Pay Per Click"
+    },
+    {
+      "acronym": "CRO",
+      "expansion": "Conversion Rate Optimization"
+    },
+    {
+      "acronym": "UGC",
+      "expansion": "User Generated Content"
+    },
+    {
+      "acronym": "KPI",
+      "expansion": "Key Performance Indicator"
+    },
+    {
+      "acronym": "ROI",
+      "expansion": "Return on Investment"
+    },
+    {
+      "acronym": "CRM",
+      "expansion": "Customer Relationship Management"
+    },
+    {
+      "acronym": "CMS",
+      "expansion": "Content Management System"
+    },
+    {
+      "acronym": "CDP",
+      "expansion": "Customer Data Platform"
+    },
+    {
+      "acronym": "DMP",
+      "expansion": "Data Management Platform"
+    },
+    {
+      "acronym": "DSP",
+      "expansion": "Demand Side Platform"
+    },
+    {
+      "acronym": "SSP",
+      "expansion": "Supply Side Platform"
+    },
+    {
+      "acronym": "RTB",
+      "expansion": "Real-Time Bidding"
+    },
+    {
+      "acronym": "DCO",
+      "expansion": "Dynamic Creative Optimization"
+    },
+    {
+      "acronym": "MMM",
+      "expansion": "Media Mix Modeling"
+    },
+    {
+      "acronym": "ABM",
+      "expansion": "Account-Based Marketing"
+    },
+    {
+      "acronym": "MQL",
+      "expansion": "Marketing Qualified Lead"
+    },
+    {
+      "acronym": "SQL",
+      "expansion": "Sales Qualified Lead"
+    },
+    {
+      "acronym": "NPS",
+      "expansion": "Net Promoter Score"
+    },
+    {
+      "acronym": "CSAT",
+      "expansion": "Customer Satisfaction Score"
+    },
+    {
+      "acronym": "CES",
+      "expansion": "Customer Effort Score"
+    },
+    {
+      "acronym": "CLV",
+      "expansion": "Customer Lifetime Value"
+    },
+    {
+      "acronym": "MRR",
+      "expansion": "Monthly Recurring Revenue"
+    },
+    {
+      "acronym": "ARR",
+      "expansion": "Annual Recurring Revenue"
+    },
+    {
+      "acronym": "SaaS",
+      "expansion": "Software as a Service"
+    },
+    {
+      "acronym": "API",
+      "expansion": "Application Programming Interface"
+    },
+    {
+      "acronym": "UI",
+      "expansion": "User Interface"
+    },
+    {
+      "acronym": "UX",
+      "expansion": "User Experience"
+    },
+    {
+      "acronym": "CTA",
+      "expansion": "Call to Action"
+    },
+    {
+      "acronym": "ESP",
+      "expansion": "Email Service Provider"
+    },
+    {
+      "acronym": "ISP",
+      "expansion": "Internet Service Provider"
+    },
+    {
+      "acronym": "GDPR",
+      "expansion": "General Data Protection Regulation"
+    },
+    {
+      "acronym": "CCPA",
+      "expansion": "California Consumer Privacy Act"
+    },
+    {
+      "acronym": "TOFU",
+      "expansion": "Top of Funnel"
+    },
+    {
+      "acronym": "MOFU",
+      "expansion": "Middle of Funnel"
+    },
+    {
+      "acronym": "BOFU",
+      "expansion": "Bottom of Funnel"
+    },
+    {
+      "acronym": "B2B",
+      "expansion": "Business to Business"
+    },
+    {
+      "acronym": "B2C",
+      "expansion": "Business to Consumer"
+    },
+    {
+      "acronym": "D2C",
+      "expansion": "Direct to Consumer"
+    },
+    {
+      "acronym": "SMB",
+      "expansion": "Small and Medium Business"
+    },
+    {
+      "acronym": "SME",
+      "expansion": "Small and Medium Enterprise"
+    },
+    {
+      "acronym": "GTM",
+      "expansion": "Go-to-Market"
+    },
+    {
+      "acronym": "PMF",
+      "expansion": "Product Market Fit"
+    },
+    {
+      "acronym": "MVP",
+      "expansion": "Minimum Viable Product"
+    },
+    {
+      "acronym": "OKR",
+      "expansion": "Objectives and Key Results"
+    },
+    {
+      "acronym": "SLA",
+      "expansion": "Service Level Agreement"
+    },
+    {
+      "acronym": "CPL",
+      "expansion": "Cost per Lead"
+    },
+    {
+      "acronym": "CPV",
+      "expansion": "Cost per View"
+    },
+    {
+      "acronym": "CPE",
+      "expansion": "Cost per Engagement"
+    },
+    {
+      "acronym": "CPI",
+      "expansion": "Cost per Install"
+    },
+    {
+      "acronym": "ECPM",
+      "expansion": "Effective Cost per Mille"
+    },
+    {
+      "acronym": "RPM",
+      "expansion": "Revenue per Mille"
+    }
+  ],
+  "cases": [
+    {
+      "id": "case_001",
+      "scenario": "Your e-commerce client's ROAS dropped from 4.2 to 2.8 over the past month. Traffic volume remained stable, but conversion rates fell 20%. The client recently launched a new product line and expanded to 3 new countries. How would you diagnose and address this performance decline?",
+      "guidance": "Consider: audience dilution from expansion, new product performance, attribution changes, competitive landscape, seasonal factors, and technical issues. Systematic analysis should examine each variable independently."
+    },
+    {
+      "id": "case_002",
+      "scenario": "A B2B SaaS company wants to reduce their CAC from $800 to $500 within 6 months while maintaining lead quality. Current channels: Google Ads (40%), LinkedIn (30%), Content Marketing (20%), Events (10%). Which strategic approach would you recommend?",
+      "guidance": "Evaluate: conversion rate optimization, funnel improvements, channel reallocation, audience refinement, creative testing, landing page optimization, and lead scoring enhancement."
+    },
+    {
+      "id": "case_003",
+      "scenario": "Your client's email marketing performance is declining: open rates dropped from 25% to 18%, click rates from 4% to 2.5%, and deliverability issues are emerging. The list has grown 40% in 6 months. What's your systematic approach to recovery?",
+      "guidance": "Address: list hygiene, sender reputation, segmentation strategy, content relevance, send frequency, authentication setup, and engagement-based automation."
+    },
+    {
+      "id": "case_004",
+      "scenario": "A retail brand wants to launch in a new international market (Germany) with a $200K budget for the first quarter. They currently operate successfully in the US and UK. Outline your market entry strategy and budget allocation.",
+      "guidance": "Consider: market research, localization needs, channel selection, competitive analysis, cultural adaptation, legal requirements, measurement framework, and risk mitigation."
+    },
+    {
+      "id": "case_005",
+      "scenario": "Your client's attribution model shows Google Ads getting 60% credit for conversions, but when you pause Google Ads for a week, total conversions only drop 25%. How do you address this attribution challenge and optimize budget allocation?",
+      "guidance": "Explore: incrementality testing, media mix modeling, multi-touch attribution, view-through conversions, assisted conversions, and cross-channel interaction effects."
+    },
+    {
+      "id": "case_006",
+      "scenario": "A subscription service has a 15% monthly churn rate and wants to improve retention. Current LTV is $180, CAC is $60. They have user behavior data, email engagement metrics, and product usage analytics. Design a retention strategy.",
+      "guidance": "Focus on: churn prediction modeling, onboarding optimization, engagement triggers, value demonstration, proactive support, win-back campaigns, and pricing strategies."
+    },
+    {
+      "id": "case_007",
+      "scenario": "Your client's organic traffic dropped 40% after a Google algorithm update. Paid traffic costs increased 30% to maintain lead volume. Revenue is stable but margins are compressed. What's your recovery plan?",
+      "guidance": "Address: technical SEO audit, content quality assessment, backlink analysis, user experience optimization, diversification strategy, and short-term paid adjustments."
+    },
+    {
+      "id": "case_008",
+      "scenario": "A mobile app company wants to scale user acquisition from 10K to 50K monthly installs while maintaining a $5 CPI. Current channels are Facebook (70%) and Google (30%). Competition has intensified. What's your scaling strategy?",
+      "guidance": "Consider: creative fatigue, audience expansion, new channel exploration, ASO optimization, influencer partnerships, referral programs, and retention impact on LTV."
+    },
+    {
+      "id": "case_009",
+      "scenario": "Your B2B client's sales cycle extended from 3 to 6 months, causing cash flow issues. Marketing is generating the same lead volume, but deals are taking longer to close. How do you adapt the marketing strategy?",
+      "guidance": "Evaluate: lead nurturing enhancement, sales enablement content, pipeline acceleration tactics, qualification improvements, competitive positioning, and value demonstration."
+    },
+    {
+      "id": "case_010",
+      "scenario": "A fashion e-commerce brand's customer acquisition is seasonal (80% in Q4). They want to build year-round revenue streams. Current repeat purchase rate is 25%. How would you develop an annual growth strategy?",
+      "guidance": "Explore: retention marketing, subscription models, product diversification, content marketing, community building, loyalty programs, and off-season engagement tactics."
+    },
+    {
+      "id": "case_011",
+      "scenario": "Your client wants to implement marketing automation but has limited resources. They have 50K email subscribers, basic CRM, and manual processes. Budget is $10K setup + $2K monthly. What's your implementation roadmap?",
+      "guidance": "Prioritize: platform selection, data integration, workflow design, segmentation strategy, content creation, testing framework, and ROI measurement."
+    },
+    {
+      "id": "case_012",
+      "scenario": "A local service business wants to expand nationally through digital marketing. They have strong local SEO and word-of-mouth but no paid advertising experience. Budget: $50K for 6 months. What's your expansion plan?",
+      "guidance": "Consider: market research, local SEO scaling, paid search strategy, content marketing, review management, partnership opportunities, and performance tracking."
+    },
+    {
+      "id": "case_013",
+      "scenario": "Your client's competitor launched an aggressive pricing strategy, cutting prices 30%. Your client's traffic dropped 15% and conversion rates fell 10%. They can't match prices due to margin constraints. How do you respond?",
+      "guidance": "Focus on: value proposition strengthening, differentiation messaging, customer retention, premium positioning, service enhancement, and competitive monitoring."
+    },
+    {
+      "id": "case_014",
+      "scenario": "A SaaS startup has product-market fit but struggles with scalable customer acquisition. Current CAC is $300, LTV is $1200, but they can only acquire 100 customers/month. How do you build a scalable growth engine?",
+      "guidance": "Develop: channel diversification, content marketing, product-led growth, referral programs, partnership strategies, and systematic experimentation framework."
+    },
+    {
+      "id": "case_015",
+      "scenario": "Your client's iOS 14.5 update impact: Facebook ROAS dropped 40%, attribution window shortened, and audience targeting became less precise. Android performance remained stable. What's your adaptation strategy?",
+      "guidance": "Implement: first-party data collection, server-side tracking, creative optimization, broader targeting, Android focus, email marketing enhancement, and measurement diversification."
+    },
+    {
+      "id": "case_016",
+      "scenario": "A marketplace platform wants to balance supply (sellers) and demand (buyers) growth. Currently: 1000 sellers, 10K buyers, but transaction volume is low. How do you create network effects and increase marketplace activity?",
+      "guidance": "Address: chicken-and-egg problem, incentive structures, onboarding optimization, trust building, search/discovery improvement, and community development."
+    },
+    {
+      "id": "case_017",
+      "scenario": "Your client's marketing team is overwhelmed with manual reporting. They spend 40% of their time on data compilation instead of strategy. Budget for automation tools: $15K annually. How do you streamline operations?",
+      "guidance": "Implement: dashboard automation, data integration, reporting standardization, KPI alignment, tool consolidation, and team training programs."
+    },
+    {
+      "id": "case_018",
+      "scenario": "A luxury brand wants to maintain exclusivity while growing revenue 50% year-over-year. Current strategy focuses on high-net-worth individuals. How do you scale without diluting brand value?",
+      "guidance": "Balance: selective expansion, premium positioning, exclusivity maintenance, customer experience enhancement, referral programs, and brand protection strategies."
+    },
+    {
+      "id": "case_019",
+      "scenario": "Your client's customer support is overwhelmed due to rapid growth. Response times increased from 2 hours to 24 hours, affecting customer satisfaction and retention. How does this impact marketing strategy?",
+      "guidance": "Consider: growth rate adjustment, customer expectation management, self-service implementation, onboarding improvement, and customer success integration with marketing."
+    },
+    {
+      "id": "case_020",
+      "scenario": "A fintech startup faces strict advertising regulations. Google and Facebook rejected several campaigns. Traditional marketing channels show low ROI. How do you build compliant, effective customer acquisition?",
+      "guidance": "Explore: content marketing, educational approach, partnership strategies, referral programs, PR and thought leadership, compliance framework, and alternative channels."
+    }
+  ]
+} 

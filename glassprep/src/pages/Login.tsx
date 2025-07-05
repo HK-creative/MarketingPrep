@@ -103,7 +103,6 @@ export const Login: React.FC = () => {
               disabled={loading}
               className="pin-input glass-hover flex items-center justify-center transform hover:scale-110 active:scale-95 transition-all duration-200"
               style={{ animationDelay: `${0.7 + index * 0.05}s` }}
-              aria-label={`Digit ${digit}`}
             >
               {digit}
             </button>
@@ -113,7 +112,6 @@ export const Login: React.FC = () => {
             onClick={handleClear}
             disabled={loading}
             className="pin-input glass-hover flex items-center justify-center text-sm"
-            aria-label="Clear"
           >
             Clear
           </button>
@@ -122,7 +120,6 @@ export const Login: React.FC = () => {
             onClick={() => handleDigitClick('0')}
             disabled={loading}
             className="pin-input glass-hover flex items-center justify-center"
-            aria-label="Digit 0"
           >
             0
           </button>
@@ -131,7 +128,6 @@ export const Login: React.FC = () => {
             onClick={handleBackspace}
             disabled={loading}
             className="pin-input glass-hover flex items-center justify-center"
-            aria-label="Backspace"
           >
             ←
           </button>

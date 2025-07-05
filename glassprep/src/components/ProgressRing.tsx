@@ -18,11 +18,7 @@ export const ProgressRing: React.FC<ProgressRingProps> = ({
   const strokeDashoffset = circumference - (progress / 100) * circumference;
 
   return (
-    <div
-      className={`relative inline-flex ${className}`}
-      role="img"
-      aria-label={`Progress: ${Math.round(progress)}%`}
-    >
+    <div className={`relative inline-flex ${className}`}>
       <svg
         className="transform -rotate-90"
         width={size}
@@ -55,11 +51,8 @@ export const ProgressRing: React.FC<ProgressRingProps> = ({
       
       {/* Center text */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <span className="text-2xl font-bold" aria-hidden="true">
-          {Math.round(progress)}%
-        </span>
-        <span className="sr-only">{Math.round(progress)}% complete</span>
+        <span className="text-2xl font-bold">{Math.round(progress)}%</span>
       </div>
     </div>
   );
-};
+}; 

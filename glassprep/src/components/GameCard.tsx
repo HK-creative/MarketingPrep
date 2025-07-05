@@ -10,13 +10,9 @@ interface GameCardProps {
 export const GameCard: React.FC<GameCardProps> = ({ module, progress }) => {
   const isCompleted = progress && progress.highScore >= 80;
   const hasPlayed = progress && progress.totalAttempts > 0;
-
+  
   return (
-    <Link
-      to={module.route}
-      className="block group keyboard-focusable"
-      aria-label={`${module.name} module`}
-    >
+    <Link to={module.route} className="block group">
       <div className="glass glass-hover p-6 h-full flex flex-col relative overflow-hidden">
         {/* Animated background on hover */}
         <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -63,7 +59,7 @@ export const GameCard: React.FC<GameCardProps> = ({ module, progress }) => {
         </div>
         
         {/* Play Button */}
-        <button className="btn-primary w-full text-center relative z-10 group-hover:shadow-xl group-hover:shadow-accent/20 keyboard-focusable">
+        <button className="btn-primary w-full text-center relative z-10 group-hover:shadow-xl group-hover:shadow-accent/20">
           {hasPlayed ? 'Play Again' : 'Start Playing'}
         </button>
       </div>

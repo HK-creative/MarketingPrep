@@ -1,29 +1,15 @@
 # Dependencies
-node_modules/
+node_modules
 
 # Development files
-src/
-*.config.js
-*.config.ts
-tsconfig*.json
-.gitignore
-README.md
-
-# Build tools
-eslint.config.js
-tailwind.config.js
-postcss.config.js
-
-# IDE and editor files
-.vscode/
-.idea/
+.vscode
+.idea
 *.swp
 *.swo
 *~
 
-# OS files
-.DS_Store
-Thumbs.db
+# Build output
+dist
 
 # Environment files
 .env.local
@@ -39,7 +25,6 @@ yarn-error.log*
 pnpm-debug.log*
 bun-debug.log*
 
-# Lock files (optional - keep bun.lock if you want consistent installs)
-package-lock.json
-yarn.lock
-pnpm-lock.yaml 
+# OS files
+.DS_Store
+Thumbs.db 

@@ -9,7 +9,7 @@ import gameContent from '../../data/content.json';
 export const AcronymSprint: React.FC = () => {
   const [userProgress, setUserProgress] = useLocalStorage<UserProgress>('glassprep_progress', {
     modules: {},
-    lastLogin: new Date().toISOString(),
+    lastPlayed: new Date().toISOString(),
     totalPlayTime: 0,
   });
 
@@ -97,13 +97,7 @@ export const AcronymSprint: React.FC = () => {
     }, 1000);
   };
 
-  const handleTimeExpire = useCallback(() => {
-    if (gameStarted && !gameEnded) {
-      endGame(false);
-    }
-  }, [gameStarted, gameEnded]);
-
-  const endGame = (won: boolean) => {
+  const endGame = useCallback((won: boolean) => {
     setGameEnded(true);
     setIsTimerRunning(false);
     
@@ -143,7 +137,13 @@ export const AcronymSprint: React.FC = () => {
         acronym: moduleProgress,
       },
     });
-  };
+  }, [correctCount, wrongCount, startTime, maxStreak, userProgress, setUserProgress]);
+
+  const handleTimeExpire = useCallback(() => {
+    if (gameStarted && !gameEnded) {
+      endGame(false);
+    }
+  }, [gameStarted, gameEnded, endGame]);
 
   if (!gameStarted) {
     return (

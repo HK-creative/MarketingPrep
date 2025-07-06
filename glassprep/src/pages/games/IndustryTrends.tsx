@@ -238,7 +238,7 @@ export function IndustryTrends() {
       <div className={`min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-4 transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         <Confetti isActive={true} />
         <div className="max-w-2xl mx-auto">
-          <div className="glass-card p-8 text-center animate-slideInUp">
+          <div className="glass-card p-8 text-center animate-fadeInUp">
             <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6">
               <TrendingUp className="w-10 h-10 text-white" />
             </div>
@@ -296,7 +296,7 @@ export function IndustryTrends() {
           </div>
         </div>
 
-        <div className="glass-card p-8 animate-slideInUp">
+        <div className="glass-card p-8 animate-fadeInUp">
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-3">
               <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">

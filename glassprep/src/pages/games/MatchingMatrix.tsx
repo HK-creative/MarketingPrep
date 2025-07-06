@@ -16,7 +16,7 @@ interface GamePair {
 export const MatchingMatrix: React.FC = () => {
   const [userProgress, setUserProgress] = useLocalStorage<UserProgress>('glassprep_progress', {
     modules: {},
-    lastLogin: new Date().toISOString(),
+    lastPlayed: new Date().toISOString(),
     totalPlayTime: 0,
   });
 

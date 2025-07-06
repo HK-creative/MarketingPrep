@@ -9,17 +9,11 @@ export default {
       colors: {
         'accent': '#00BFA6',
       },
-      backdropBlur: {
-        'glass': '14px',
-      },
-      borderRadius: {
-        'glass': '16px',
-      },
       fontFamily: {
         'sans': ['Inter', 'Alef', 'system-ui', 'sans-serif'],
       },
       animation: {
-        'confetti': 'confetti 0.5s ease-out forwards',
+        'confetti': 'confetti 3s ease-out forwards',
         'flip': 'flip 0.6s ease-in-out',
         'shake': 'shake 0.5s ease-in-out',
         'slideInUp': 'slideInUp 0.4s ease-out',
@@ -99,10 +93,6 @@ export default {
           '0%, 50%': { borderColor: 'transparent' },
           '51%, 100%': { borderColor: '#00BFA6' },
         },
-      },
-      transitionProperty: {
-        'height': 'height',
-        'spacing': 'margin, padding',
       },
     },
   },

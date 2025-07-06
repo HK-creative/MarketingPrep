@@ -9,7 +9,7 @@ import gameContent from '../../data/content.json';
 export const Quiz: React.FC = () => {
   const [userProgress, setUserProgress] = useLocalStorage<UserProgress>('glassprep_progress', {
     modules: {},
-    lastLogin: new Date().toISOString(),
+    lastPlayed: new Date().toISOString(),
     totalPlayTime: 0,
   });
 
@@ -73,12 +73,12 @@ export const Quiz: React.FC = () => {
 
   const handleTimeExpire = useCallback(() => {
     if (selectedAnswer === null && gameStarted && !gameEnded) {
-      setWrong(wrong + 1);
-      setResponseTimes([...responseTimes, 8000]); // Max time
+      setWrong(prev => prev + 1);
+      setResponseTimes(prev => [...prev, 8000]); // Max time
       setShowExplanation(true);
       setIsTimerRunning(false);
     }
-  }, [selectedAnswer, gameStarted, gameEnded, wrong, responseTimes]);
+  }, [selectedAnswer, gameStarted, gameEnded]);
 
   const endGame = () => {
     setGameEnded(true);

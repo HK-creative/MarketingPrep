@@ -60,7 +60,7 @@ export interface ModuleProgress {
 
 export interface UserProgress {
   modules: Record<string, ModuleProgress>;
-  lastLogin: string;
+  lastPlayed: string;
   totalPlayTime: number;
 }
 

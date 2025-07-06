@@ -55,7 +55,7 @@ export const Confetti: React.FC<ConfettiProps> = ({
       {particles.map((particle) => (
         <div
           key={particle.id}
-          className="confetti animate-confetti"
+          className="confetti"
           style={{
             left: `${particle.x}px`,
             backgroundColor: particle.color,

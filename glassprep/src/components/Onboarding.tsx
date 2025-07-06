@@ -46,7 +46,7 @@ const onboardingSteps: OnboardingStep[] = [
     title: 'Interactive Learning Games 🎮',
     description: 'Each game targets specific interview skills: Quick-Fire Quiz for knowledge recall, Case Builder for structured thinking, and more. Complete them in any order.',
     icon: Play,
-    animation: 'animate-slideInUp',
+    animation: 'animate-fadeInUp',
     tips: [
       'Start with Quiz to build foundational knowledge',
       'Use Flashcards for memorization',
